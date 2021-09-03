@@ -1,0 +1,83 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'art.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Art _$ArtFromJson(Map<String, dynamic> json) {
+  return Art(
+    artAttributes: json['art_attributes'] as String?,
+    artCreatedAt: json['art_created_at'] as String?,
+    artDescription: json['art_description'] as String?,
+    artMedia: json['art_media'] as String?,
+    artReleasedAt: json['art_released_at'] as String?,
+    artUpdatedAt: json['art_updated_at'] as String?,
+    artistAttributes: json['artist_attributes'] as String?,
+    artistCreatedAt: json['artist_created_at'] as String?,
+    artistDescription: json['artist_description'] as String?,
+    artistId: json['artist_id'] as int?,
+    artistNameEn: json['artist_name_en'] as String?,
+    artistUpdatedAt: json['artist_updated_at'] as String?,
+    beforeRatio: (json['before_ratio'] as num?)?.toDouble(),
+    canOwnerCertificate: json['can_owner_certificate'] as int?,
+    exhibitType: json['exhibit_type'] as int?,
+    exhibitUserId: json['exhibit_user_id'] as int?,
+    facebook: json['facebook'] as String?,
+    firstRatio: (json['first_ratio'] as num?)?.toDouble(),
+    firstTokenPrice: (json['first_token_price'] as num?)?.toDouble(),
+    fullPurchaseUserId: json['full_purchase_user_id'] as int?,
+    id: json['id'] as int?,
+    marketPrice: (json['market_price'] as num?)?.toDouble(),
+    since: json['since'] as String?,
+    size: json['size'] as String?,
+    status: json['status'] as int?,
+    style: json['style'] as String?,
+    title: json['title'] as String?,
+    token: json['token'] as int?,
+    totalToken: json['total_token'] as int?,
+    twitter: json['twitter'] as String?,
+    type: json['type'] as int?,
+    userId: json['user_id'] as int?,
+    userNickname: json['user_nickname'] as String?,
+    yesterdayToken: json['yesterday_token'] as int?,
+  );
+}
+
+Map<String, dynamic> _$ArtToJson(Art instance) => <String, dynamic>{
+      'art_attributes': instance.artAttributes,
+      'art_created_at': instance.artCreatedAt,
+      'art_description': instance.artDescription,
+      'art_media': instance.artMedia,
+      'art_released_at': instance.artReleasedAt,
+      'art_updated_at': instance.artUpdatedAt,
+      'artist_attributes': instance.artistAttributes,
+      'artist_created_at': instance.artistCreatedAt,
+      'artist_description': instance.artistDescription,
+      'artist_id': instance.artistId,
+      'artist_name_en': instance.artistNameEn,
+      'artist_updated_at': instance.artistUpdatedAt,
+      'before_ratio': instance.beforeRatio,
+      'can_owner_certificate': instance.canOwnerCertificate,
+      'exhibit_type': instance.exhibitType,
+      'exhibit_user_id': instance.exhibitUserId,
+      'facebook': instance.facebook,
+      'first_ratio': instance.firstRatio,
+      'first_token_price': instance.firstTokenPrice,
+      'full_purchase_user_id': instance.fullPurchaseUserId,
+      'id': instance.id,
+      'market_price': instance.marketPrice,
+      'since': instance.since,
+      'size': instance.size,
+      'status': instance.status,
+      'style': instance.style,
+      'title': instance.title,
+      'token': instance.token,
+      'total_token': instance.totalToken,
+      'twitter': instance.twitter,
+      'type': instance.type,
+      'user_id': instance.userId,
+      'user_nickname': instance.userNickname,
+      'yesterday_token': instance.yesterdayToken,
+    };
